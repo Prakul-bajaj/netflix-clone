@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",'Times New Roman', Times, serif;
+}
+
+html {
+    background-color: black;
+}
+&::-webkit-scrollbar {
+    display: none;
+  }
+.head {
+    background-image: url("content/Images/Netflixback.jpg");
+    height: 670px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    background-size: max(1200px, 100vw);
+}
+
+.background {
+    background-color: rgba(0, 0, 0, 0.64);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.photo {
+    height: 70px;
+    width: 150px;
+}
+
+nav {
+    margin: auto;
+    height: 50px;
+    width: 85vw;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tichuk {
+    padding-right: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.tichuk>button:first-child {
+    background-color: rgba(49, 46, 46, 0);
+    color: white;
+    width: 120px;
+    height: 28px;
+    border: 1px solid #80808073;
+    border-radius: 3px;
+    padding-right: 10px;
+    padding-left: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 15px;
+}
+
+.tichuk :nth-child(2) {
+    height: 30px;
+    width: 60px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 80vw;
+    margin: auto;
+    height: 65vh;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.text1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.text2 {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.text3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 300;
+    gap: 20px;
+}
+
+#Email {
+    width: 380px;
+    height: 50px;
+    background-color: rgba(22, 22, 22, 0.7);
+    border: 1px solid rgba(128, 128, 128, 0.7);
+    padding-left: 10px;
+}
+
+.start {
+    display: flex;
+    gap: 15px;
+}
+
+.tichuk2 {
+    width: 220px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 3px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.gt {
+    font-weight: 100;
+}
+
+.separation {
+    height: 10px;
+    width: 100vw;
+    background-color: #232323;
+}
+
+.second {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 85vw;
+    margin: 10vh auto;
+    position: relative;
+    top: 0px;
+}
+.lines :first-child{
+    font-size: 36px;
+}
+.lines :nth-child(2){
+    font-size: 20px;
+}
+
+.tv {
+    position: relative;
+}
+
+.tv img {
+    height: 295px;
+    position: relative;
+    z-index: 10;
+    width: 496px;
+}
+
+.vid {
+    position: absolute;
+    top: 0px;
+}
+
+.vid video {
+    width: 496px;
+    height: 205px;
+}
+
+.lines {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+    position: relative;
+    align-items: center;
+    width: 60%;
+}
+.image1{
+    height: 350px;
+}
+.third{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85vw;
+    position: relative;
+    top: 0px;
+    margin: auto;
+    flex-wrap: wrap-reverse;
+    padding: 50px 0 50px 0;
+}
+.strange{
+    position: absolute;
+    display: flex;
+    bottom: 20px;
+    width: 66%;
+    gap: 20px;
+    background-color: black;
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+    border-radius: 13px;
+}
+.mobile{
+    height: fit-content;
+    width: 475px;
+    position: relative;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+}
+.strange img{
+    height: 80px;
+}
+.downloading{
+    display:flex;
+    flex-direction: column;
+    color: white;
+    gap: 5px;
+}
+.downloading :first-child{
+    font-size: 20px;
+}
+.downloading :nth-child(2){
+    color: #0071eb;
+    font-size: 14px;
+}
+.lines2 span:nth-child(2){
+    color: #0071eb;
+}
+.gif{
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif);
+    height: 58px;
+    background-size: cover;
+    width: 56px;
+    background-repeat: no-repeat;
+}
+#mac{
+    width: 410px;
+    height: 194px;
+}
+#mac video{
+    height: 170px;
+    width: 495px;
+    position: absolute;
+    bottom: 0px;
+}
+#kids{
+    flex-direction: row-reverse;
+    height: fit-content;
+}
+#tasveer img{
+    height: 350px;
+}
+.Head{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 0 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+.FAQ{
+    color: white;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.dibba{
+    height: 75px;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(45 45 45);
+    padding: 0 25px 0 25px;
+    font-size: 22px;
+}
+.onemore{
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 30px 0 60px 0;
+    font-size: 20px;
+}
+.lower{
+    display: grid;
+    height: 160px;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 40px 40px 40px 40px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 0 0 120px;
+}
+.gridcont{
+    height: 380px;
+}
+.containerlow{
+    height: 40px;
+    width: 120px;
+    display: contents;
+    font-size: 16px;
+}
+.lowbody{
+    padding: 65px 0 0 0;
+    gap: 5px;
+}
+.containerlow a{
+    color: rgba(255, 255, 255, 0.7);
+}
+.Questions{
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0 0 0 120px;
+    font-size: 19px;
+}
+.Questions a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 19px;
+}
+.lowbutton{
+    padding: 20px 0 0 120px;
+}
+.India{
+    padding: 20px 0 0 120px;
+    height: 20px;
+    color: white;
+    font-size: 14px;
+}
+@media screen and (max-width: 650px) {
+    .tichuk {
+        padding-right: 0px;
+        display: flex;
+    }
+
+    .photo {
+        width: 100px;
+        padding-top: 5px;
+    }
+
+    .tichuk>button:first-child {
+        width: 90px;
+    }
+
+    nav {
+        margin: 0px 0px 0px 80px;
+        padding-top: 0px;
+        height: 8vw;
+        margin: 20px;
+    }
+
+    .text1 {
+        font-size: 36px;
+    }
+
+    .text2 {
+        font-size: 23px;
+    }
+
+    .text3 {
+        font-size: 23px;
+    }
+
+    .text {
+        text-align: center;
+        margin: 0px;
+        padding-left: 28px;
+        height: 45vh;
+        padding-top: 5px;
+        justify-content: flex-start;
+        padding: 30px;
+    }
+
+    .head {
+        height: 670px;
+    }
+
+    .start {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #Email {
+        width: 290px;
+        height: 40px;
+    }
+    .lines :first-child{
+        font-size: 25px;
+    }
+    .lines :nth-child(2){
+        font-size: 14px;
+    }
+
+    .tv img {
+        height: 185px;
+        width: 313px
+    }
+
+    .vid {
+        width: 310px;
+        height: 164px;
+    }
+    .vid video{
+        width: 309px;
+        height: 127px;
+    }
+    .tichuk2 {
+        width: 155px;
+        height: 40px;
+        font-size: 22px;
+    }
+    .image1{
+        height: 244px;
+        width: 318px;
+    }
+    .third{
+        margin: 35px auto 0 auto;
+        width: 90vw;
+    }
+    .strange{
+        position: absolute;
+    display: flex;
+    bottom: 47px;
+    width: 95%;
+    background-color: black;
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 75px;
+    border-radius: 13px
+    }
+    .strange img{
+        height: 65px;
+    }
+    .mobile{
+        height: 285px;
+    }
+    #tv{
+        width: 300px;
+    }
+
+    #tv img{
+        height: 230px;
+        width: 300px;
+    }
+    #mac{
+        width: 272px;
+        height: 190px;
+    }
+    #mac video{
+        height: 104px;
+        width: 303px;
+        position: absolute;
+        bottom: 70px;
+    }
+    #kids{
+        height: fit-content;
+    }
+    #tasveer img{
+        height: 265px;
+    }
+    
+}
+ @media screen and (max-width: 920px) {
+    .lower{
+        padding:15px 0 0 20px;
+    }
+    .Questions{
+        padding:15px 0 0 20px;
+    }
+    .lowbutton{
+        padding:20px 0 0 20px;
+    }
+    .India{
+        padding:20px 0 0 20px;
+    }
+ }
+ @media screen and (max-width: 825px) {
+    .lower{
+    height: fit-content;
+    grid-template-columns: 300px 200px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px;
+    }
+ }
+ @media screen and (max-width:520px){
+    .lower{
+        grid-template-columns: 50% 50%;
+    }
+ }
+    /* nav {
+        margin: 0px 30px 0px 40px;
+        padding-top: 11px;
+
+    }
+
+    .head {
+        height: 650px;
+    } */
+/* @media screen and (max-width: 1134px) {
+    .second{
+        height: 440px;
+    } */
